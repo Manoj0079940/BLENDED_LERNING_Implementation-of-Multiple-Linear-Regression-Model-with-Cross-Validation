@@ -10,22 +10,29 @@ To write a program to predict the price of cars using a multiple linear regressi
 
 ## Algorithm
 1.Import Libraries: Bring in the necessary libraries.
+
 2.Load the Dataset: Load the dataset into your environment
+
 3.Data Preprocessing: Handle any missing data and encode categorical variables as needed.
+
 4.Define Features and Target: Split the dataset into features (X) and the target variable (y).
+
 5.Split Data: Divide the dataset into training and testing sets.
+
 6.Build Multiple Linear Regression Model: Initialize and create a multiple linear regression model.
+
 7.Train the Model: Fit the model to the training data.
+
 8.Evaluate Performance: Assess the model's performance using cross-validation.
+
 9.Display Model Parameters: Output the model’s coefficients and intercept.
+
 10.Make Predictions & Compare: Predict outcomes and compare them to the actual values.
 ## Program:
 ```
-/*
-Program to implement the multiple linear regression model for predicting car prices with cross-validation.
 Developed by:MANOJ M
-RegisterNumber: 212223230122 
-*/
+RegisterNumber: 212223230122
+
 # Importing necessary libraries
 import pandas as pd
 import numpy as np
